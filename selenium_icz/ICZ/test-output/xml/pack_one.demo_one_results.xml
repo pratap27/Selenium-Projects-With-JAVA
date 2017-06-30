@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Test"
+           tests="2"
+           failures="1"
+           errors="0"
+           skipped="0"
+           time="1.034">
+  <properties />
+            <testcase name="firstTestCase" time="1.025" classname="pack_one.demo_one">
+                <failure type="org.testng.internal.thread.ThreadTimeoutException"
+                  message="Method pack_one.demo_one.firstTestCase() didn&apos;t finish within the time-out 1000"
+              >
+<![CDATA[org.testng.internal.thread.ThreadTimeoutException: Method pack_one.demo_one.firstTestCase() didn't finish within the time-out 1000
+]]>
+      </failure>
+
+          </testcase>
+  
+  
+            <testcase name="secondTestCase" time="0.009" classname="pack_one.demo_one" />
+      
+</testsuite>

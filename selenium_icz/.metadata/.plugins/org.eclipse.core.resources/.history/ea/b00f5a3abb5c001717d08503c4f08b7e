@@ -1,0 +1,39 @@
+package regression_test;
+
+import java.util.List;
+import java.util.concurrent.TimeUnit;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.testng.annotations.Test;
+
+import constant.const_url;
+
+public class ctut {
+	
+		WebDriver d;
+		@Test
+		public void c(){
+			d = new FirefoxDriver();
+			d.get(const_url.url);
+			d.findElement(By.xpath(".//*[@id='wrapper']/section[1]/div/nav/ul/li[3]/a")).click();
+			d.findElement(By.xpath(".//*[@id='wrapper']/div/ul/li[1]/a")).click();
+			
+			WebElement c1 = d.findElement(By.xpath(".//*[@id='wrapper']/div[2]/ul/b"));
+			List<WebElement> links = c1.findElements(By.tagName("li"));
+			d.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+			System.out.println("Links: "+links.size());
+			for(int i=0; i<links.size(); i++){
+				links.get(i).click();
+				d.getCurrentUrl();
+				d.navigate().back();
+				
+				c1 =  d.findElement(By.xpath(".//*[@id='wrapper']/div[2]/ul/b"));
+				links = c1.findElements(By.tagName("li"));
+	
+			}
+	}
+
+}

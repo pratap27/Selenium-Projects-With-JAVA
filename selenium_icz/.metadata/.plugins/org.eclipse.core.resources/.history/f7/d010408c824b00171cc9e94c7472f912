@@ -1,0 +1,46 @@
+package test_ng;
+
+import java.util.List;
+import java.util.concurrent.TimeUnit;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.interactions.Actions;
+
+import constant.const_url;
+
+public class tutorial_links {
+
+	public static void main(String[] args) {
+		WebDriver d = new FirefoxDriver();
+		d.get(const_url.url);
+		d.manage().timeouts().implicitlyWait(90, TimeUnit.SECONDS);
+		
+		WebElement c = d.findElement(By.xpath(".//*[@id='wrapper']/section[1]/div/nav/ul/li[3]/a"));
+		
+		WebElement c1 = d.findElement(By.xpath(".//*[@id='menu']/ul/li[3]/ul/li[1]/a"));
+		
+		/*Actions a = new Actions(d);
+		a.moveToElement(c).moveToElement(c1).build().perform();
+		c1.click();*/
+		
+		WebElement block = d.findElement(By.xpath(".//*[@id='wrapper']/center/section/div[2]/ul"));
+	
+		List<WebElement> link = block.findElements(By.tagName("a"));
+		
+	
+		
+		System.out.println("No.of.Links: "+ link.size());
+		
+		for(int i =0; i<link.size();i++){
+			Actions a = new Actions(d);
+			a.moveToElement(c).build().perform();
+			
+			link.get(i).click();
+			//System.out.println(d.getCurrentUrl());
+			System.out.println(link.get(i).getText());
+	}
+	}
+}

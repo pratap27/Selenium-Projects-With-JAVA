@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite1">
+<listeners>
+ 
+	<listener class-name="org.uncommons.reportng.HTMLReporter" />
+ 
+	<listener class-name="org.uncommons.reportng.JUnitXMLReporter" />
+ 
+</listeners>
+  <test name="Test">
+    <classes>
+      <class name="pom_script.carr_fresh_dis"/>
+      <class name="pom_script.contact_us_dis"/>
+      <class name="pom_script.career_exp_dis"/>
+      <class name="pom_script.carr_fresh_exp_job_dis"/>
+      <class name="pom_script.all_img_dis"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite1 -->

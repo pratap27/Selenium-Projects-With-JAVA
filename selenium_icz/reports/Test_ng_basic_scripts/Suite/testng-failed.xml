@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+    <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+  </listeners>
+  <test name="Test(failed)">
+    <classes>
+      <class name="test_ng.online_test">
+        <methods>
+          <include name="on_tst"/>
+        </methods>
+      </class> <!-- test_ng.online_test -->
+      <class name="test_ng.tutorial_links">
+        <methods>
+          <include name="tut_lnks"/>
+        </methods>
+      </class> <!-- test_ng.tutorial_links -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

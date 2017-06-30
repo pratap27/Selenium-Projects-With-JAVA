@@ -1,0 +1,53 @@
+package regression_test;
+
+import java.util.List;
+import java.util.concurrent.TimeUnit;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.support.FindBy;
+import org.testng.annotations.Test;
+
+import constant.const_url;
+
+public class ctut1 {
+
+	WebDriver d;
+	@Test
+	public void c1(){
+		d = new FirefoxDriver();
+		d.get(const_url.url);
+		d.findElement(By.xpath(".//*[@id='wrapper']/section[1]/div/nav/ul/li[3]/a")).click();
+		d.findElement(By.xpath(".//*[@id='wrapper']/div/ul/li[1]/a")).click();
+		WebElement hc = d.findElement(By.xpath(".//*[@id='wrapper']/div[2]/ul/b/li[1]/a"));
+		hc.click();
+		List<WebElement> links0 = d.findElements(By.linkText("PREVIOUS PAGE"));
+		List<WebElement> links1 =  d.findElements(By.xpath(".//*[@id='wrapper']/section[2]/a"));
+		List<WebElement> links2 = d.findElements(By.xpath(".//*[@id='wrapper']/section[2]/div[1]/div[2]/a"));
+		List<WebElement> links = d.findElements(By.linkText("NEXT PAGE"));
+		d.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+		
+		System.out.println("Links: "+links.size());
+		for(int i=0; i<links1.size(); i++){
+			links.get(i).click();
+			for(int j=0; j<links2.size(); j++){
+				links.get(i).click();
+				links.get(j).click();
+				links.get(i).click();
+				links.get(j).click();
+				links.get(i).click();
+				links.get(j).click();
+				links.get(i).click();
+				for(int k=0; k<links1.size(); k++){
+					links0.get(i).click();
+					links0.get(j).click();
+					links0.get(k).click();
+					links0.get(i).click();
+				}
+			}
+		}
+	
+	}
+}

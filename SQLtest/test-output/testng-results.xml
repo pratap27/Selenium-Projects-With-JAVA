@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="232" started-at="2017-06-08T19:58:08Z" finished-at="2017-06-08T19:58:08Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="232" started-at="2017-06-08T19:58:08Z" finished-at="2017-06-08T19:58:08Z">
+      <class name="selenium_SQLintegraton">
+        <test-method status="PASS" signature="TestVerifyDB()[pri:0, instance:selenium_SQLintegraton@6ea12c19]" name="TestVerifyDB" duration-ms="218" started-at="2017-06-09T01:28:08Z" finished-at="2017-06-09T01:28:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestVerifyDB -->
+      </class> <!-- selenium_SQLintegraton -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

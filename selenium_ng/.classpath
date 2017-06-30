@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+	<classpathentry kind="lib" path="C:/Users/PRATAP27/Downloads/automation/java/jar file/client-combined-3.4.0-nodeps.jar"/>
+	<classpathentry kind="lib" path="C:/Users/PRATAP27/Downloads/automation/java/jar file/lib/cglib-nodep-3.2.4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/PRATAP27/Downloads/automation/java/jar file/lib/commons-codec-1.10.jar"/>
+	<classpathentry kind="lib" path="C:/Users/PRATAP27/Downloads/automation/java/jar file/lib/commons-exec-1.3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/PRATAP27/Downloads/automation/java/jar file/lib/commons-io-2.5.jar"/>
+	<classpathentry kind="lib" path="C:/Users/PRATAP27/Downloads/automation/java/jar file/lib/commons-lang3-3.5.jar"/>
+	<classpathentry kind="lib" path="C:/Users/PRATAP27/Downloads/automation/java/jar file/lib/commons-logging-1.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/PRATAP27/Downloads/automation/java/jar file/lib/cssparser-0.9.22.jar"/>
+	<classpathentry kind="lib" path="C:/Users/PRATAP27/Downloads/automation/java/jar file/lib/gson-2.8.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/PRATAP27/Downloads/automation/java/jar file/lib/guava-21.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/PRATAP27/Downloads/automation/java/jar file/lib/hamcrest-core-1.3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/PRATAP27/Downloads/automation/java/jar file/lib/htmlunit-2.26.jar"/>
+	<classpathentry kind="lib" path="C:/Users/PRATAP27/Downloads/automation/java/jar file/lib/htmlunit-core-js-2.26.jar"/>
+	<classpathentry kind="lib" path="C:/Users/PRATAP27/Downloads/automation/java/jar file/lib/htmlunit-driver-2.26.jar"/>
+	<classpathentry kind="lib" path="C:/Users/PRATAP27/Downloads/automation/java/jar file/lib/httpclient-4.5.3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/PRATAP27/Downloads/automation/java/jar file/lib/httpcore-4.4.6.jar"/>
+	<classpathentry kind="lib" path="C:/Users/PRATAP27/Downloads/automation/java/jar file/lib/httpmime-4.5.3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/PRATAP27/Downloads/automation/java/jar file/lib/javax.servlet-api-3.1.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/PRATAP27/Downloads/automation/java/jar file/lib/jetty-io-9.4.1.v20170120.jar"/>
+	<classpathentry kind="lib" path="C:/Users/PRATAP27/Downloads/automation/java/jar file/lib/jetty-util-9.4.1.v20170120.jar"/>
+	<classpathentry kind="lib" path="C:/Users/PRATAP27/Downloads/automation/java/jar file/lib/jna-4.1.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/PRATAP27/Downloads/automation/java/jar file/lib/jna-platform-4.1.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/PRATAP27/Downloads/automation/java/jar file/lib/junit-4.12.jar"/>
+	<classpathentry kind="lib" path="C:/Users/PRATAP27/Downloads/automation/java/jar file/lib/neko-htmlunit-2.25.jar"/>
+	<classpathentry kind="lib" path="C:/Users/PRATAP27/Downloads/automation/java/jar file/lib/phantomjsdriver-1.4.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/PRATAP27/Downloads/automation/java/jar file/lib/sac-1.3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/PRATAP27/Downloads/automation/java/jar file/lib/serializer-2.7.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/PRATAP27/Downloads/automation/java/jar file/lib/websocket-api-9.4.3.v20170317.jar"/>
+	<classpathentry kind="lib" path="C:/Users/PRATAP27/Downloads/automation/java/jar file/lib/websocket-client-9.4.3.v20170317.jar"/>
+	<classpathentry kind="lib" path="C:/Users/PRATAP27/Downloads/automation/java/jar file/lib/websocket-common-9.4.3.v20170317.jar"/>
+	<classpathentry kind="lib" path="C:/Users/PRATAP27/Downloads/automation/java/jar file/lib/xalan-2.7.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/PRATAP27/Downloads/automation/java/jar file/lib/xercesImpl-2.11.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/PRATAP27/Downloads/automation/java/jar file/lib/xml-apis-1.4.01.jar"/>
+	<classpathentry kind="con" path="org.testng.TESTNG_CONTAINER"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

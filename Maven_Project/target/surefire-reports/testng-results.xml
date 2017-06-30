@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="learningMaven.myMavenProject.HelloWorldTest" duration-ms="9996" started-at="2017-06-06T18:05:27Z" finished-at="2017-06-06T18:05:37Z">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="9996" started-at="2017-06-06T18:05:27Z" finished-at="2017-06-06T18:05:37Z">
+      <class name="learningMaven.myMavenProject.HelloWorldTest">
+        <test-method status="PASS" signature="before_test()[pri:0, instance:learningMaven.myMavenProject.HelloWorldTest@735f7ae5]" name="before_test" is-config="true" duration-ms="3302" started-at="2017-06-06T23:35:27Z" finished-at="2017-06-06T23:35:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before_test -->
+        <test-method status="PASS" signature="hello()[pri:0, instance:learningMaven.myMavenProject.HelloWorldTest@735f7ae5]" name="hello" duration-ms="6263" started-at="2017-06-06T23:35:31Z" finished-at="2017-06-06T23:35:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- hello -->
+        <test-method status="PASS" signature="after_test()[pri:0, instance:learningMaven.myMavenProject.HelloWorldTest@735f7ae5]" name="after_test" is-config="true" duration-ms="424" started-at="2017-06-06T23:35:37Z" finished-at="2017-06-06T23:35:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after_test -->
+      </class> <!-- learningMaven.myMavenProject.HelloWorldTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- learningMaven.myMavenProject.HelloWorldTest -->
+</testng-results>

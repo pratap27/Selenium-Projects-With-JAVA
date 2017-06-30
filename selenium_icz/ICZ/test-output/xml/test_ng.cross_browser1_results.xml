@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Test"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="44.179">
+  <properties />
+  
+  
+            <testcase name="g1" time="44.179" classname="test_ng.cross_browser1" />
+      
+</testsuite>
